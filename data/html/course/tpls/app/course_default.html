@@ -103,7 +103,8 @@
 										<div style="margin-top:10px;" controls="true" width="100%" height="450" id="movieplatform">
 					</div>
 										<blockquote style="margin-top:10px;" class="text-info"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 测试测试测试测试<span style="line-height: 20.8px;">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</span></p></blockquote>
-					<form name="form" action="index.php?questionnaire-app-question-addQuestion">
+					<form action="index.php?questionnaire-app-question-addQuestion" method="post">
+						<input type="hidden" name="courseid" value="1">
 						<table>
 							<tr bgcolor="#a9a9a9">
 								<td>
@@ -112,27 +113,27 @@
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qthoughts" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
 								<td bgcolor="#a9a9a9">
-									课程遇到的问题、建议
+									问题建议
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qadvice" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
 								<td bgcolor="#a9a9a9">
-									期望的课程内容
+									期望内容
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qexpect" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
@@ -142,7 +143,7 @@
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qother" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
@@ -152,7 +153,7 @@
 							</tr>
 							<tr>
 								<td>
-									<input type="text" style="width: 750px">
+									<input name="qreason" type="text" style="width: 750px">
 								</td>
 							</tr>
 						</table>
@@ -164,7 +165,7 @@
 			</div>
 			<div class="col-xs-4 pull-right" style="padding-right:0px;">
 				<div class="box itembox" style="padding-top:10px;">
-					<h4 class="title">会计基础</h4>
+					<h4 class="title">会计基础xiao</h4>
 					<div>
 						会计基础					</div>
 				</div>

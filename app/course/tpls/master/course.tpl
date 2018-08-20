@@ -116,7 +116,7 @@
                                                 src="{x2;if:v:course['csthumb']}{x2;v:course['csthumb']}{x2;else}app/core/styles/images/noupload.gif{x2;endif}"
                                                 alt="" style="width:24px;"/></td>
                                     <td>
-                                        <a href="index.php?questionnaire-master-question&courseid={x2;v:course['csid']}">
+                                        <a href="index.php?questionnaire-master-question&csid={x2;v:course['csid']}">
                                             {x2;v:course['cstitle']}
                                         </a>
                                     </td>
@@ -140,7 +140,7 @@
                                     <td class="actions">
                                         <div class="btn-group">
                                             <a class="btn"
-                                               href="index.php?questionnaire-master-course-toExclel&courseid={x2;v:course['csid']}"
+                                               href="index.php?questionnaire-master-question-toExclel&csid={x2;v:course['csid']}"
                                             " title="导出EXECL"><em class="glyphicon-cloud"></em></a>
                                             <a class="btn"
                                                href="index.php?course-master-course-members&courseid={x2;v:course['csid']}"

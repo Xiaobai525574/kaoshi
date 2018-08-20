@@ -17,7 +17,6 @@ class app
         $this->tpl = $this->G->make('tpl');
 
         $this->session = $this->G->make('session');
-        $this->questionnaire = $this->G->make('questionnaire');
         $this->user = $this->G->make('user', 'user');
         $this->comment = $this->G->make('comment', 'questionnaire');
         $this->_user = $_user = $this->session->getSessionUser();
@@ -37,7 +36,6 @@ class app
             }
         }
 
-        $this->question = $this->G->make('question', 'questionnaire');
         $this->comment = $this->G->make('comment', 'questionnaire');
 
 

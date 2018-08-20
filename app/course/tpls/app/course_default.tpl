@@ -32,7 +32,8 @@
 					<embed src="{x2;$content['course_youtu']}" allowFullScreen="true" quality="high" width="100%" height="450" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 					{x2;endif}
 					<blockquote style="margin-top:10px;" class="text-info">{x2;realhtml:$content['coursedescribe']}</blockquote>
-					<form name="form" action="index.php?questionnaire-app-question-addQuestion">
+					<form action="index.php?questionnaire-app-question-addQuestion" method="post">
+						<input type="hidden" name="courseid" value="{x2;$content['courseid']}">
 						<table>
 							<tr bgcolor="#a9a9a9">
 								<td>
@@ -41,27 +42,27 @@
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qthoughts" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
 								<td bgcolor="#a9a9a9">
-									课程遇到的问题、建议
+									问题建议
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qadvice" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
 								<td bgcolor="#a9a9a9">
-									期望的课程内容
+									期望内容
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qexpect" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
@@ -71,7 +72,7 @@
 							</tr>
 							<tr>
 								<td>
-									<textarea style="height:100px; width:750px""></textarea>
+									<textarea name="qother" style="height:100px; width:750px""></textarea>
 								</td>
 							</tr>
 							<tr>
@@ -81,7 +82,7 @@
 							</tr>
 							<tr>
 								<td>
-									<input type="text" style="width: 750px">
+									<input name="qreason" type="text" style="width: 750px">
 								</td>
 							</tr>
 						</table>

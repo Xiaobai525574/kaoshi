@@ -28,7 +28,7 @@
                             <th>用户</th>
                             <th>课程</th>
                             <th>课程感想</th>
-                            <th>问题或建议</th>
+                            <th>问题建议</th>
                             <th>期望内容</th>
                             <th>其他</th>
                             <th>未出席原因</th>
@@ -39,8 +39,8 @@
  foreach($this->tpl_var['questions']['data'] as $key => $question){ 
  $cid++; ?>
                         <tr>
-                            <td><?php echo $question['userid']; ?></td>
-                            <td><?php echo $question['courseidid']; ?></td>
+                            <td><?php echo $question['username']; ?></td>
+                            <td><?php echo $question['cstitle']; ?></td>
                             <td><?php echo $question['qthoughts']; ?></td>
                             <td><?php echo $question['qadvice']; ?></td>
                             <td><?php echo $question['qexpect']; ?></td>

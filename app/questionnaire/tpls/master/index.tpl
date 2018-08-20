@@ -28,7 +28,7 @@
                             <th>用户</th>
                             <th>课程</th>
                             <th>课程感想</th>
-                            <th>问题或建议</th>
+                            <th>问题建议</th>
                             <th>期望内容</th>
                             <th>其他</th>
                             <th>未出席原因</th>
@@ -37,8 +37,8 @@
                         <tbody>
                         {x2;tree:$questions['data'],question,cid}
                         <tr>
-                            <td>{x2;v:question['userid']}</td>
-                            <td>{x2;v:question['courseidid']}</td>
+                            <td>{x2;v:question['username']}</td>
+                            <td>{x2;v:question['cstitle']}</td>
                             <td>{x2;v:question['qthoughts']}</td>
                             <td>{x2;v:question['qadvice']}</td>
                             <td>{x2;v:question['qexpect']}</td>

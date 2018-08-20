@@ -144,7 +144,7 @@
                                     <td class="actions">
                                         <div class="btn-group">
                                             <a class="btn"
-                                               href="index.php?questionnaire-master-course-toExclel&courseid=<?php echo $course['csid']; ?>"
+                                               href="index.php?questionnaire-master-question-toExclel&csid=<?php echo $course['csid']; ?>"
                                             " title="导出EXECL"><em class="glyphicon-cloud"></em></a>
                                             <a class="btn"
                                                href="index.php?course-master-course-members&courseid=<?php echo $course['csid']; ?>"
