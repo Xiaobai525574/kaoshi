@@ -2,7 +2,7 @@
 	<div class="row-fluid">
 		<div class="main">
 			<div class="col-xs-10">
-				<h2 style="color:#337AB7;"><a href="index.php"><img src="app/core/styles/img/logo2.png" style="height:60px;margin-top:-10px;"/>&nbsp;transcosmos管理平台</a></h2>
+				<h2 style="color:#337AB7;"><a href="index.php"><img src="app/core/styles/img/logo2.png" style="height:60px;margin-top:-10px;"/>&nbsp;transcosmos后台管理</a></h2>
 			</div>
 			<div class="col-xs-2" style="padding-top:22px;">
 				<ul class="list-unstyled list-inline">

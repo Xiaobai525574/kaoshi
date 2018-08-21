@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>transcosmos内部考试系统后台管理</title>
+    <title>transcosmos知识教育管理平台后台管理</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="app/core/styles/css/bootstrap.css" />
@@ -23,7 +23,7 @@
 	<script src="app/core/styles/js/ckeditor/ckeditor.js"></script>
 	<script src="app/core/styles/js/plugin.js"></script>
 </head><body>
-<div class="container-fluid box" style="margin:0px auto;padding-top:10px;overflow:visible">	<div class="row-fluid">		<div class="main">			<div class="col-xs-10">				<h2 style="color:#337AB7;"><a href="index.php"><img src="app/core/styles/img/logo2.png" style="height:60px;margin-top:-10px;"/>&nbsp;transcosmos管理平台</a></h2>			</div>			<div class="col-xs-2" style="padding-top:22px;">				<ul class="list-unstyled list-inline">										<li>						<div class="btn-group">							<button type="button" class="btn btn-info"><em class="glyphicon glyphicon-user"></em> peadmin</button>							<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">								<span class="caret"></span>								<span class="sr-only">Toggle Dropdown</span>							</button>							<ul class="dropdown-menu">								<li><a href="index.php?user-center"><em class="glyphicon glyphicon-user"></em> 用户中心</a></li>																<li><a href="index.php?core-master"><em class="glyphicon glyphicon-dashboard"></em> 后台管理</a></li>								<li><a class="ajax" href="index.php?user-app-logout"><em class="glyphicon glyphicon-log-out"></em> 退出</a></li>							</ul>						</div>					</li>									</ul>			</div>		</div>	</div></div><div class="container-fluid navbar" style="margin-top:0px;margin-bottom:0px;padding-top:10px;background-color:#337AB7;">	<div class="row-fluid">		<div class="main">			<div class="col-xs-12">				<ul class="list-unstyled list-inline">					<li class="menu col-xs-1">						<a href="index.php?core-master">全局</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?user-master">用户模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?exam-master">考试模块</a>					</li>																														<li class="menu col-xs-1">						<a href="index.php?document-master">文件模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?content-master">内容模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?bank-master">财务模块</a>					</li>																				<li class="menu col-xs-1 active">						<a href="index.php?course-master">课程模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?docs-master">文档模块</a>					</li>																			</ul>			</div>		</div>	</div></div><div class="container-fluid">
+<div class="container-fluid box" style="margin:0px auto;padding-top:10px;overflow:visible">	<div class="row-fluid">		<div class="main">			<div class="col-xs-10">				<h2 style="color:#337AB7;"><a href="index.php"><img src="app/core/styles/img/logo2.png" style="height:60px;margin-top:-10px;"/>&nbsp;transcosmos后台管理</a></h2>			</div>			<div class="col-xs-2" style="padding-top:22px;">				<ul class="list-unstyled list-inline">										<li>						<div class="btn-group">							<button type="button" class="btn btn-info"><em class="glyphicon glyphicon-user"></em> peadmin</button>							<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">								<span class="caret"></span>								<span class="sr-only">Toggle Dropdown</span>							</button>							<ul class="dropdown-menu">								<li><a href="index.php?user-center"><em class="glyphicon glyphicon-user"></em> 用户中心</a></li>																<li><a href="index.php?core-master"><em class="glyphicon glyphicon-dashboard"></em> 后台管理</a></li>								<li><a class="ajax" href="index.php?user-app-logout"><em class="glyphicon glyphicon-log-out"></em> 退出</a></li>							</ul>						</div>					</li>									</ul>			</div>		</div>	</div></div><div class="container-fluid navbar" style="margin-top:0px;margin-bottom:0px;padding-top:10px;background-color:#337AB7;">	<div class="row-fluid">		<div class="main">			<div class="col-xs-12">				<ul class="list-unstyled list-inline">					<li class="menu col-xs-1">						<a href="index.php?core-master">全局</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?user-master">用户模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?exam-master">考试模块</a>					</li>																														<li class="menu col-xs-1">						<a href="index.php?document-master">文件模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?content-master">内容模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?bank-master">财务模块</a>					</li>																				<li class="menu col-xs-1 active">						<a href="index.php?course-master">课程模块</a>					</li>																				<li class="menu col-xs-1">						<a href="index.php?docs-master">文档模块</a>					</li>																			</ul>			</div>		</div>	</div></div><div class="container-fluid">
 	<div class="row-fluid">
 		<div class="main">
 			<div class="col-xs-2" style="padding-top:10px;margin-bottom:0px;">
@@ -47,7 +47,7 @@
 						<div class="form-group">
 				            <label for="contenttitle" class="control-label col-sm-2">课程标题：</label>
 				            <div class="col-sm-9">
-							    <input class="form-control" type="text" id="cstitle" name="args[cstitle]" needle="needle" msg="您必须输入标题" value="课程测试">
+							    <input class="form-control" type="text" id="cstitle" name="args[cstitle]" needle="needle" msg="您必须输入标题" value="会计基础">
 					        </div>
 				        </div>
 				        <div class="form-group">
@@ -67,8 +67,8 @@
 								            <ul class="qq-upload-list-selector list-unstyled" aria-live="polite" aria-relevant="additions removals" style="clear:both;">
 									            <li class="text-center">
 									                <div class="thumbnail">
-														<img class="qq-thumbnail-selector" src="files/attach/images/content/20180814/15342303317206.jpg" alt="点击上传新图片">
-														<input type="hidden" class="qq-edit-filename-selector" name="args[csthumb]" tabindex="0" value="files/attach/images/content/20180814/15342303317206.jpg">
+														<img class="qq-thumbnail-selector" src="files/attach/images/content/20180821/15348152424404.jpg" alt="点击上传新图片">
+														<input type="hidden" class="qq-edit-filename-selector" name="args[csthumb]" tabindex="0" value="files/attach/images/content/20180821/15348152424404.jpg">
 						                			</div>
 									            </li>
 									        </ul>
@@ -100,7 +100,7 @@
 				        <div class="form-group">
 				            <label for="contentdescribe" class="control-label col-sm-2">简介：</label>
 				            <div class="col-sm-9">
-							    <textarea id="contentdescribe" name="args[csdescribe]" class="form-control" rows="4">课程测试</textarea>
+							    <textarea id="contentdescribe" name="args[csdescribe]" class="form-control" rows="4">会计基础</textarea>
 					        </div>
 				        </div>
 				        <div class="form-group">
@@ -118,7 +118,7 @@
 						<div class="form-group">
 							<label for="basicprice" class="control-label col-sm-2">价格设置</label>
 							<div class="col-sm-9">
-								<textarea class="form-control" rows="4" name="args[csprice]" id="csprice"></textarea>
+								<textarea class="form-control" rows="4" name="args[csprice]" id="csprice">10:10</textarea>
 							  	<span class="help-block">请按照“时长:开通所需积分”格式填写，每行一个，时长以天为单位，免费课程此设置无效。</span>
 							</div>
 						</div>
@@ -128,7 +128,7 @@
 					            <button class="btn btn-primary" type="submit">提交</button>
 					            <input type="hidden" name="submit" value="1">
 					            <input type="hidden" name="page" value="1">
-					            <input type="hidden" name="courseid" value="2">
+					            <input type="hidden" name="courseid" value="1">
 					        </div>
 				        </div>
 					</form>

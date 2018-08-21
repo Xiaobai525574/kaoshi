@@ -18,6 +18,17 @@ class action extends app
 		exit;
 	}
 
+    /**
+     * 某门课程的评论列表
+     */
+	private function questionList() {
+        $csId = $this->ev->get('csid');
+
+        $questions = $this->G->make('questionnaire', 'questionnaire')->getQuestionListByCsId($csId);
+        $this->tpl->assign('questions', $questions);
+        $this->tpl->display('questionList');
+	}
+
 	private function selectmember()
 	{
 		$page = intval($this->ev->get('page'));

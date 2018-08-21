@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>transcosmos内部考试系统</title>
+    <title>transcosmos知识教育管理平台</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="app/core/styles/css/bootstrap.css" />
@@ -165,7 +165,7 @@
 			</div>
 			<div class="col-xs-4 pull-right" style="padding-right:0px;">
 				<div class="box itembox" style="padding-top:10px;">
-					<h4 class="title">会计基础xiao</h4>
+					<h4 class="title">会计基础</h4>
 					<div>
 						会计基础					</div>
 				</div>
@@ -267,11 +267,30 @@
 		<div class="main itembox">
 			<div class="col-xs-12">
 				<ul class="list-unstyled">
-					<li class="text-center"><a href="">transcosmos内部考试系统 著作权登记号：2013 SR 113189</a></li>
+					<li class="text-center"><a href="">transcosmos知识教育管理平台 著作权登记号：2013 SR 113189</a></li>
 					<li class="text-center"><a href="">Copyright © transcosmos.net  2015-2016</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-</div></body>
+</div>
+<script language="JavaScript">
+    $(document).ready(function () {
+        function footerEdit() {
+            var browserHeight = window.innerHeight;
+            var bodyHeight = document.body.offsetHeight;
+            if (browserHeight > bodyHeight) {
+                $('#footer').addClass('footer-bottom');
+                console.log('add');
+            } else {
+                $('#footer').removeClass('footer-bottom');
+                console.log('remove');
+            }
+        }
+
+        footerEdit();
+        $(window).resize(footerEdit);
+    });
+</script>
+</body>
 </html>

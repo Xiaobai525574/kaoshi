@@ -101,7 +101,7 @@
                                     <!--
                                     <th width="100">申请人数</th>
                                     -->
-                                    <th width="180">操作</th>
+                                    <th width="240">操作</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -116,7 +116,7 @@
                                                 src="{x2;if:v:course['csthumb']}{x2;v:course['csthumb']}{x2;else}app/core/styles/images/noupload.gif{x2;endif}"
                                                 alt="" style="width:24px;"/></td>
                                     <td>
-                                        <a href="index.php?questionnaire-master-question&csid={x2;v:course['csid']}">
+                                        <a href="index.php?course-master-course-questionList&csid={x2;v:course['csid']}">
                                             {x2;v:course['cstitle']}
                                         </a>
                                     </td>

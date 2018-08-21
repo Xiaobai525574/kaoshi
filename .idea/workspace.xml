@@ -19,7 +19,7 @@
     <favorites_list name="phpems" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -33,6 +33,11 @@
       <find>50</find>
       <find>courseid</find>
       <find>$db_query</find>
+      <find>transcosmos内部考试系统</find>
+      <find>id=&quot;footer&quot;</find>
+      <find>transcosmos管理平台</find>
+      <find>assign</find>
+      <find>common_</find>
     </findStrings>
     <replaceStrings>
       <replace>common/</replace>
@@ -43,7 +48,12 @@
       <replace>($key</replace>
       <replace>36</replace>
       <replace>csid</replace>
+      <replace>transcosmos知识教育管理平台</replace>
+      <replace>transcosmos后台管理</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\phpStudy\WWW\kaoshi\app</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,13 +67,36 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/questionnaire/app.php" />
         <option value="$PROJECT_DIR$/app/course/tpls/app/course_default.tpl" />
-        <option value="$PROJECT_DIR$/app/questionnaire/controller/question.app.php" />
         <option value="$PROJECT_DIR$/app/questionnaire/controller/course.master.php" />
-        <option value="$PROJECT_DIR$/app/questionnaire/controller/question.master.php" />
-        <option value="$PROJECT_DIR$/app/course/tpls/master/course.tpl" />
         <option value="$PROJECT_DIR$/app/course/cls/course.cls.php" />
-        <option value="$PROJECT_DIR$/app/questionnaire/tpls/master/index.tpl" />
         <option value="$PROJECT_DIR$/app/questionnaire/cls/questionnaire.cls.php" />
+        <option value="$PROJECT_DIR$/lib/config.inc.php" />
+        <option value="$PROJECT_DIR$/app/questionnaire/controller/question.app.php" />
+        <option value="$PROJECT_DIR$/app/questionnaire/tpls/master/index.tpl" />
+        <option value="$PROJECT_DIR$/app/questionnaire/tpls/master/common_header.tpl" />
+        <option value="$PROJECT_DIR$/app/questionnaire/tpls/master/common_footer.tpl" />
+        <option value="$PROJECT_DIR$/app/document/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/content/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/content/tpls/app/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/core/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/course/tpls/app/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/course/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/course/tpls/phone/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/docs/tpls/app/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/docs/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/exam/tpls/app/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/exam/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/exam/tpls/teach/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/user/tpls/api/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/user/tpls/app/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/user/tpls/center/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/user/tpls/master/footer.tpl" />
+        <option value="$PROJECT_DIR$/app/questionnaire/controller/question.master.php" />
+        <option value="$PROJECT_DIR$/app/course/controller/course.master.php" />
+        <option value="$PROJECT_DIR$/app/course/tpls/master/questionList.tpl" />
+        <option value="$PROJECT_DIR$/app/course/tpls/master/course.tpl" />
+        <option value="$PROJECT_DIR$/app/core/styles/css/peskin.css" />
+        <option value="$PROJECT_DIR$/app/course/tpls/master/menu.tpl" />
       </list>
     </option>
   </component>
@@ -102,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,51 +148,10 @@
               <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="questionnaire" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="questionnaire" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cls" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="questionnaire" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="questionnaire" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tpls" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="questionnaire" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tpls" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="master" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="phpems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaoshi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -166,6 +159,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="Constants" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -200,32 +194,33 @@
       <updated>1531794794141</updated>
       <workItem from="1534749095555" duration="8851000" />
       <workItem from="1534768592457" duration="14022000" />
+      <workItem from="1534814947718" duration="12524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22886000" />
+    <option name="totallyTimeSpent" value="35410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20869099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5010917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09694989" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6202247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49344978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -245,459 +240,413 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/module.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/category.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/content/controller/content.app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/session.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/content/cls/block.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bank/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/cls/config.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/exam/lang/exam.lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/content/cls/ad.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/content/cls/content.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/common_nav.tpl" />
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/category.master.php" />
-    <entry file="file://$PROJECT_DIR$/app/user/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bank/cls/coupon.cls.php">
+    <entry file="file://$PROJECT_DIR$/app/content/app.php" />
+    <entry file="file://$PROJECT_DIR$/app/docs/app.php" />
+    <entry file="file://$PROJECT_DIR$/app/exam/app.php" />
+    <entry file="file://$PROJECT_DIR$/lib/PHPExcel.php" />
+    <entry file="file://$PROJECT_DIR$/lib/PHPExcel/Worksheet.php" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/app/course/app.php" />
+    <entry file="file://$PROJECT_DIR$/lib/ev.cls.php" />
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/app/course_default.tpl" />
+    <entry file="file://$PROJECT_DIR$/lib/db.cls.php" />
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/app.php" />
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/course.master.php" />
+    <entry file="file://$PROJECT_DIR$/lib/pdosql.cls.php" />
+    <entry file="file://$PROJECT_DIR$/lib/pepdo.cls.php" />
+    <entry file="file://$PROJECT_DIR$/app/course/cls/course.cls.php" />
+    <entry file="file://$PROJECT_DIR$/app/course/controller/course.app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bank/cls/coupon.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bank/cls/coupon.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bank/cls/coupon.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/controller/index.app.php">
+    <entry file="file://$PROJECT_DIR$/app/core/tpls/master/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/controller/course.master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="370" column="9" lean-forward="true" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+        <state relative-caret-position="-288">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/common_header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tpl.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="151" column="9" lean-forward="true" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/init.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pg.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/course.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="110" column="44" lean-forward="false" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/content/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/docs/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/exam/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/PHPExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/PHPExcel/Worksheet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1378" column="45" lean-forward="false" selection-start-line="1378" selection-start-column="30" selection-end-line="1378" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ev.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
-          <folding>
-            <element signature="n#__construct#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#232#492#0#PHP" expanded="false" />
-            <element signature="e#408#492#0#PHP" expanded="false" />
-            <element signature="n#isWeixin#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#727#817#0#PHP" expanded="false" />
-            <element signature="n#isMobile#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#1512#2158#0#PHP" expanded="false" />
-            <element signature="n#parseUrl#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#2621#3021#0#PHP" expanded="false" />
-            <element signature="e#2699#2764#0#PHP" expanded="false" />
-            <element signature="e#2771#3000#0#PHP" expanded="false" />
-            <element signature="e#2931#2996#0#PHP" expanded="false" />
-            <element signature="e#3030#3136#0#PHP" expanded="false" />
-            <element signature="e#3145#3224#0#PHP" expanded="false" />
-            <element signature="n#get#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#post#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#url#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#setCookie#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#getCookie#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#getFile#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="n#initData#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#4458#5093#0#PHP" expanded="false" />
-            <element signature="e#4485#4667#0#PHP" expanded="false" />
-            <element signature="e#4527#4662#0#PHP" expanded="false" />
-            <element signature="e#4691#5093#0#PHP" expanded="false" />
-            <element signature="e#4703#4957#0#PHP" expanded="false" />
-            <element signature="n#stripSlashes#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#5159#5334#0#PHP" expanded="false" />
-            <element signature="e#5187#5279#0#PHP" expanded="false" />
-            <element signature="e#5284#5334#0#PHP" expanded="false" />
-            <element signature="n#addSlashes#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#5412#5583#0#PHP" expanded="false" />
-            <element signature="e#5440#5530#0#PHP" expanded="false" />
-            <element signature="e#5535#5583#0#PHP" expanded="false" />
-            <element signature="n#getClientIp#0;n#ev#0;n#!!top" expanded="false" />
-            <element signature="e#5651#6274#0#PHP" expanded="false" />
-            <element signature="n#getSecondDomain#0;n#ev#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/tpls/app/course_default.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/controller/course.app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="244" column="49" lean-forward="true" selection-start-line="244" selection-start-column="49" selection-end-line="244" selection-end-column="49" />
-          <folding>
-            <element signature="e#6#155#0#PHP" expanded="false" />
-            <element signature="n#coursejs#0;n#action#0;n#!!top" expanded="false" />
-            <element signature="n#jumppaper#0;n#action#0;n#!!top" expanded="false" />
-            <element signature="e#1059#1267#0#PHP" expanded="false" />
-            <element signature="e#1126#1221#0#PHP" expanded="false" />
-            <element signature="e#1418#1610#0#PHP" expanded="false" />
-            <element signature="e#1465#1564#0#PHP" expanded="false" />
-            <element signature="n#opencourse#0;n#action#0;n#!!top" expanded="false" />
-            <element signature="e#1908#4024#0#PHP" expanded="false" />
-            <element signature="e#1988#2145#0#PHP" expanded="false" />
-            <element signature="e#2071#2139#0#PHP" expanded="false" />
-            <element signature="e#2149#3127#0#PHP" expanded="false" />
-            <element signature="e#2209#3127#0#PHP" expanded="false" />
-            <element signature="e#2291#2596#0#PHP" expanded="false" />
-            <element signature="e#2414#2590#0#PHP" expanded="false" />
-            <element signature="e#2461#2583#0#PHP" expanded="false" />
-            <element signature="e#2807#3122#0#PHP" expanded="false" />
-            <element signature="e#2860#2933#0#PHP" expanded="false" />
-            <element signature="e#2973#3122#0#PHP" expanded="false" />
-            <element signature="e#3264#3427#0#PHP" expanded="false" />
-            <element signature="e#3461#4024#0#PHP" expanded="false" />
-            <element signature="e#3488#3805#0#PHP" expanded="false" />
-            <element signature="e#3607#3760#0#PHP" expanded="false" />
-            <element signature="e#3652#3754#0#PHP" expanded="false" />
-            <element signature="n#recordtime#0;n#action#0;n#!!top" expanded="false" />
-            <element signature="e#4337#4435#0#PHP" expanded="false" />
-            <element signature="n#endstatus#0;n#action#0;n#!!top" expanded="false" />
-            <element signature="e#4745#5877#0#PHP" expanded="false" />
-            <element signature="e#4952#5867#0#PHP" expanded="false" />
-            <element signature="e#5273#5559#0#PHP" expanded="false" />
-            <element signature="e#5305#5467#0#PHP" expanded="false" />
-            <element signature="e#5746#5862#0#PHP" expanded="false" />
-            <element signature="e#6096#6332#0#PHP" expanded="false" />
-            <element signature="e#6170#6328#0#PHP" expanded="false" />
-            <element signature="e#6947#7329#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/question.app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/db.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="169" column="33" lean-forward="false" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/course.master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/tpls/master/course.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="118" column="82" lean-forward="false" selection-start-line="118" selection-start-column="82" selection-end-line="118" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pdosql.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1970">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <marker date="1534768275164" expanded="true" signature="6956:7031" ph="DELETE FROM " />
-            <marker date="1534768275164" expanded="true" signature="8378:8469" ph="INSERT INTO ${$db_tables}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pepdo.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="175" column="35" lean-forward="true" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/course/cls/course.cls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+        <state relative-caret-position="506">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/questionnaire/cls/questionnaire.cls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="462">
+          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/question.app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/content/tpls/app/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/styles/js/ckeditor/plugins/mathjax/dev/mathjax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/content/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/app/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/phone/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/docs/tpls/app/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/tpls/api/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/tpls/center/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/tpls/app/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/common_footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exam/tpls/teach/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exam/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/exam/tpls/app/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/document/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/docs/tpls/master/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/common_nav.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="96" lean-forward="true" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/common_menu.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="396">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/master/questionList.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/controller/course.master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#6#155#0#PHP" expanded="false" />
+            <element signature="n#display#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="n#questionList#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="n#selectmember#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#967#1068#0#PHP" expanded="false" />
+            <element signature="e#986#1064#0#PHP" expanded="false" />
+            <element signature="e#1071#2889#0#PHP" expanded="false" />
+            <element signature="e#1182#1682#0#PHP" expanded="false" />
+            <element signature="e#1213#1379#0#PHP" expanded="false" />
+            <element signature="e#1395#1578#0#PHP" expanded="false" />
+            <element signature="e#1588#1682#0#PHP" expanded="false" />
+            <element signature="e#1613#1676#0#PHP" expanded="false" />
+            <element signature="e#1721#2889#0#PHP" expanded="false" />
+            <element signature="e#2194#2595#0#PHP" expanded="false" />
+            <element signature="e#2285#2435#0#PHP" expanded="false" />
+            <element signature="e#2440#2590#0#PHP" expanded="false" />
+            <element signature="n#add#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#2923#3618#0#PHP" expanded="false" />
+            <element signature="e#3128#3306#0#PHP" expanded="false" />
+            <element signature="e#3346#3618#0#PHP" expanded="false" />
+            <element signature="n#edit#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#3798#4643#0#PHP" expanded="false" />
+            <element signature="e#3929#4126#0#PHP" expanded="false" />
+            <element signature="e#4160#4643#0#PHP" expanded="false" />
+            <element signature="n#del#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#4832#5141#0#PHP" expanded="false" />
+            <element signature="e#4903#5032#0#PHP" expanded="false" />
+            <element signature="e#5040#5141#0#PHP" expanded="false" />
+            <element signature="e#5063#5136#0#PHP" expanded="false" />
+            <element signature="n#addmember#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#5292#7491#0#PHP" expanded="false" />
+            <element signature="e#5503#7402#0#PHP" expanded="false" />
+            <element signature="e#5572#5732#0#PHP" expanded="false" />
+            <element signature="e#5748#5931#0#PHP" expanded="false" />
+            <element signature="e#5941#6610#0#PHP" expanded="false" />
+            <element signature="e#6239#6405#0#PHP" expanded="false" />
+            <element signature="e#6421#6604#0#PHP" expanded="false" />
+            <element signature="e#6614#7304#0#PHP" expanded="false" />
+            <element signature="e#6933#7099#0#PHP" expanded="false" />
+            <element signature="e#7115#7298#0#PHP" expanded="false" />
+            <element signature="e#7308#7402#0#PHP" expanded="false" />
+            <element signature="e#7333#7396#0#PHP" expanded="false" />
+            <element signature="e#7435#7491#0#PHP" expanded="false" />
+            <element signature="n#getcoursemembernumber#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="n#members#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#8003#8110#0#PHP" expanded="false" />
+            <element signature="e#8113#8241#0#PHP" expanded="false" />
+            <element signature="n#lite#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#8778#10673#0#PHP" expanded="false" />
+            <element signature="e#8828#9731#0#PHP" expanded="false" />
+            <element signature="e#8915#9071#0#PHP" expanded="false" />
+            <element signature="e#9080#9562#0#PHP" expanded="false" />
+            <element signature="e#9203#9277#0#PHP" expanded="false" />
+            <element signature="e#9566#9731#0#PHP" expanded="false" />
+            <element signature="e#9614#9726#0#PHP" expanded="false" />
+            <element signature="e#9746#9872#0#PHP" expanded="false" />
+            <element signature="e#9912#10550#0#PHP" expanded="false" />
+            <element signature="e#10065#10514#0#PHP" expanded="false" />
+            <element signature="e#10091#10221#0#PHP" expanded="false" />
+            <element signature="e#10237#10424#0#PHP" expanded="false" />
+            <element signature="e#10453#10513#0#PHP" expanded="false" />
+            <element signature="e#10553#10673#0#PHP" expanded="false" />
+            <element signature="e#10576#10636#0#PHP" expanded="false" />
+            <element signature="n#index#0;n#action#0;n#!!top" expanded="false" />
+            <element signature="e#11066#11262#0#PHP" expanded="false" />
+            <element signature="e#11265#11880#0#PHP" expanded="false" />
+            <element signature="e#11368#11880#0#PHP" expanded="false" />
+            <element signature="e#11700#11876#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/master/course.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="118" column="92" lean-forward="false" selection-start-line="118" selection-start-column="92" selection-end-line="118" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/questionnaire/tpls/master/course.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course/tpls/master/menu.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/styles/css/peskin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/questionnaire/controller/question.master.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <marker date="1534779609853" expanded="true" signature="882:1469" ph="SELECT q.que... x2_questionnaire" />
+            <marker date="1534826663269" expanded="true" signature="537:1121" ph="SELECT q.que... x2_questionnaire" />
           </folding>
         </state>
       </provider>

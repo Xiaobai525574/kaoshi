@@ -1,19 +1,19 @@
-{x2;if:!$userhash}
-{x2;include:common_header}
+<?php if(!$this->tpl_var['userhash']){ ?>
+<?php $this->_compileInclude('header'); ?>
 <body>
-{x2;include:common_nav}
+<?php $this->_compileInclude('nav'); ?>
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="main">
             <div class="col-xs-2" style="padding-top:10px;margin-bottom:0px;">
-                {x2;include:common_menu}
+                <?php $this->_compileInclude('menu'); ?>
             </div>
             <div class="col-xs-10" id="datacontent">
-                {x2;endif}
+                <?php } ?>
                 <div class="box itembox" style="margin-bottom:0px;border-bottom:1px solid #CCCCCC;">
                     <div class="col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="index.php?{x2;$_app}-master">{x2;$apps[$_app]['appname']}</a></li>
+                            <li><a href="index.php?<?php echo $this->tpl_var['_app']; ?>-master"><?php echo $this->tpl_var['apps'][$this->tpl_var['_app']]['appname']; ?></a></li>
                             <li class="active">用户反馈</li>
                         </ol>
                     </div>
@@ -35,31 +35,33 @@
                         </tr>
                         </thead>
                         <tbody>
-                        {x2;tree:$questions['data'],question,cid}
+                        <?php $cid = 0;
+ foreach($this->tpl_var['questions']['data'] as $key => $question){ 
+ $cid++; ?>
                         <tr>
-                            <td>{x2;v:question['username']}</td>
-                            <td>{x2;v:question['cstitle']}</td>
-                            <td>{x2;v:question['qthoughts']}</td>
-                            <td>{x2;v:question['qadvice']}</td>
-                            <td>{x2;v:question['qexpect']}</td>
-                            <td>{x2;v:question['qother']}</td>
-                            <td>{x2;v:question['qreason']}</td>
+                            <td><?php echo $question['username']; ?></td>
+                            <td><?php echo $question['cstitle']; ?></td>
+                            <td><?php echo $question['qthoughts']; ?></td>
+                            <td><?php echo $question['qadvice']; ?></td>
+                            <td><?php echo $question['qexpect']; ?></td>
+                            <td><?php echo $question['qother']; ?></td>
+                            <td><?php echo $question['qreason']; ?></td>
 
                         </tr>
-                        {x2;endtree}
+                        <?php } ?>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
-        {x2;if:!$userhash}
+        <?php if(!$this->tpl_var['userhash']){ ?>
     </div>
 </div>
 </div>
-{x2;include:common_footer}
+<?php $this->_compileInclude('footer'); ?>
 </body>
 </html>
-{x2;endif}
+<?php } ?>
 
 
 

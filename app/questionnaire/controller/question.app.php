@@ -31,7 +31,7 @@ class action extends app
         $result = $this->questionnaire->addQuestion('questionnaire', $post);
 
         if (!$result) return false;
-        header('location: ' . $_SERVER['HTTP_REFERER']);
+        echo "<script language=JavaScript> location.replace(location.href);</script>";
     }
 
 }

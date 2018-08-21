@@ -10,3 +10,21 @@
 		</div>
 	</div>
 </div>
+<script language="JavaScript">
+    $(document).ready(function () {
+        function footerEdit() {
+            var browserHeight = window.innerHeight;
+            var bodyHeight = document.body.offsetHeight;
+            if (browserHeight > bodyHeight) {
+                $('#footer').addClass('footer-bottom');
+                console.log('add');
+            } else {
+                $('#footer').removeClass('footer-bottom');
+                console.log('remove');
+            }
+        }
+
+        footerEdit();
+        $(window).resize(footerEdit);
+    });
+</script>

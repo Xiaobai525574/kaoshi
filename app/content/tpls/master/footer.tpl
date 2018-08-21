@@ -3,10 +3,28 @@
 		<div class="main itembox">
 			<div class="col-xs-12">
 				<ul class="list-unstyled">
-					<li class="text-center"><a href="">transcosmos内部考试系统 著作权登记号：2013 SR 113189</a></li>
+					<li class="text-center"><a href="">transcosmos知识教育管理平台 著作权登记号：2013 SR 113189</a></li>
 					<li class="text-center"><a href="">Copyright © transcosmos.net  2015-2016</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
+<script language="JavaScript">
+    $(document).ready(function () {
+        function footerEdit() {
+            var browserHeight = window.innerHeight;
+            var bodyHeight = document.body.offsetHeight;
+            if (browserHeight > bodyHeight) {
+                $('#footer').addClass('footer-bottom');
+                console.log('add');
+            } else {
+                $('#footer').removeClass('footer-bottom');
+                console.log('remove');
+            }
+        }
+
+        footerEdit();
+        $(window).resize(footerEdit);
+    });
+</script>

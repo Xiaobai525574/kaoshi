@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>transcosmos内部考试系统</title>
+<title>transcosmos知识教育管理平台</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <script src="app/core/styles/js/fastclick.js"></script>
