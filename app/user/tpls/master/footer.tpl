@@ -15,12 +15,10 @@
         function footerEdit() {
             var browserHeight = window.innerHeight;
             var bodyHeight = document.body.offsetHeight;
-            if (browserHeight > bodyHeight) {
-                $('#footer').addClass('footer-bottom');
-                console.log('add');
-            } else {
+            if ($('#footer').hasClass('footer-bottom') && browserHeight <= bodyHeight + $('#footer').outerHeight(true)) {
                 $('#footer').removeClass('footer-bottom');
-                console.log('remove');
+            } else if (browserHeight > bodyHeight) {
+                $('#footer').addClass('footer-bottom');
             }
         }
 
