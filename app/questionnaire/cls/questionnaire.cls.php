@@ -57,12 +57,36 @@ class questionnaire_questionnaire
     public function getQuestionListByCsId($csId, $page, $number = 20, $order = 'questionnaire.createtime DESC')
     {
         $data = array(
-            'select' => 'questionnaire.*, user.username, coursesubject.cstitle',
+            'select' => 'questionnaire.*, user.username, coursesubject.cstitle, course.coursetitle',
             'table' => ['questionnaire', 'course', 'coursesubject', 'user'],
             'query' => [['AND', 'questionnaire.courseid = course.courseid'],
                 ['AND', 'course.coursecsid = coursesubject.csid'],
                 ['AND', 'questionnaire.userid = user.userid'],
                 ['AND', 'coursesubject.csid = ' . $csId]],
+            'orderby' => $order
+        );
+        $result = $this->db->listElements($page, $number, $data);
+        return $result;
+    }
+
+    /**
+     * 根据每节课ID获取评论
+     * @param $courseId
+     * @param $page
+     * @param int $number
+     * @param string $order
+     * @return mixed
+     */
+    public function getQuestionListByCourseId($courseId, $page, $number = 20, $order = 'questionnaire.createtime DESC')
+    {
+        $data = array(
+            'select' => 'questionnaire.*, user.username, coursesubject.cstitle, course.coursetitle',
+            'table' => ['questionnaire', 'course', 'coursesubject', 'user'],
+            'query' => [['AND', 'questionnaire.courseid = course.courseid'],
+                ['AND', 'course.coursecsid = coursesubject.csid'],
+                ['AND', 'course.courseuserid = user.userid'],
+                ['AND', 'course.courseid = ' . $courseId]
+            ],
             'orderby' => $order
         );
         $result = $this->db->listElements($page, $number, $data);

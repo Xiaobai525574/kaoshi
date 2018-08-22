@@ -23,10 +23,9 @@ class action extends app
      */
 	private function questionList() {
         $csId = $this->ev->get('csid');
-
         $questions = $this->G->make('questionnaire', 'questionnaire')->getQuestionListByCsId($csId);
         $this->tpl->assign('questions', $questions);
-        $this->tpl->display('questionList');
+        $this->tpl->display('course_question_list');
 	}
 
 	private function selectmember()

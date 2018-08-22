@@ -16,6 +16,18 @@ class action extends app
 		exit;
 	}
 
+    /**
+     * 获取某节课的评论列表
+     */
+    private function questionList()
+    {
+        $courseId=$this->ev->get('courseid');
+        $questions=$this->G->make('questionnaire','questionnaire')->getQuestionListByCourseId($courseId);
+        $this->tpl->assign('questions',$questions);
+        $this->tpl->display('content_question_list');
+
+    }
+
 	private function add()
 	{
 		if($this->ev->get('submit'))
